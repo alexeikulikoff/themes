@@ -1,19 +1,17 @@
 import React from 'react';
 
-import Button from './components/Button';
+import Button3D from './containers/Button3D';
+import Listener from './containers/Listener';
 
 import './App.css';
 
-var click1 = function(){
-    console.log('click me');
-}
-function App() {
-  return (
-    <div>
-      <Button caption="Apply112" onClick = {click1} icon="address-card" type="shutdown"/>
-      <p>Hello </p> 
-     </div>
-  );
-}
 
-export default App;
+const App = () => (
+  <div>
+    <Button3D />
+    <Listener />
+  </div>
+)
+
+export default App
+

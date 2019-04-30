@@ -13,7 +13,9 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0"
+    "react-redux": "^7.0.3",
+    "react-scripts": "3.0.0",
+    "redux": "^4.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,6 +41,7 @@
   "devDependencies": {
     "gulp": "^4.0.1",
     "gulp-sass": "^4.0.2",
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.11.0",
+    "redux-devtools": "^3.5.0"
   }
 }
